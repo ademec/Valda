@@ -2,9 +2,35 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<meta name="author" content="Équipe Valda hackathon ADEMEC">
+	<meta name="application-name" content="Valdapp">
 	<title>Valdapp</title>
+	{% include "partials.html" %}
 </head>
 <body>
+	<div id="main-div">
+			<header>
+					<div style="text-align: center; margin-bottom: 2%;">
+        				<h1>
+        	    			<a href="{{url_for('home')}}"><i>L'École des chartes</i></a>
+        	    		</h1>
+        	    		<h2>
+        	    			vue par Jules Quicherat
+        			    </h2>
+        			</div>
 {% block corps%}{%endblock%}
+<footer>
+				<div style="padding: 4% 4% 4% 4%; font-size: 8pt; line-height: 2%;">
+					<p>
+					© 2021 — École nationale des chartes.
+					</p>
+					<p>
+						Application développée en 2021 l'équipe Valda,
+					</p>
+					<p>
+						pour le hackathon ADEMEC.
+					</p>
+				</div>
+			</footer>
 </body>
 </html>
