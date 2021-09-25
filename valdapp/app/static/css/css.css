@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Lato:300i,400|Source+Sans+Pro:300|Goudy+Bookletter+1911&display=swap');
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #4B4B4B;
+}
+a:hover, a:active {
+	text-decoration: none;
+	color: #B1B0B0;
+}
+#my-map{
+	width:960px;
+	height:500px;
+	margin: 0 auto;
+	margin-top: 0px;
+}
+#main-div{
+	margin: 10% 17% 10% 17%;
+	font-family: 'Open Sans';
+	text-align: justify;
+}
