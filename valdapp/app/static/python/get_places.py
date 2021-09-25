@@ -12,7 +12,6 @@ def thesis_places(csv_path, output_csv):
             title = title.replace("’", "'")
             doc = nlp(title)
             for ent in doc.ents:
-                # print(ent.text, ent.start_char, ent.end_char, ent.label_)
                 if ent.label_ in ['LOC'] or ent.label_ in ['GPE']:
                     places = [line[0], line[1], ent.text]
                     print(places)
