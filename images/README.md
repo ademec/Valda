@@ -13,7 +13,9 @@ Les scripts générent des données .csv qui sont ensuite importées dans la bas
 ## Génération de l'image de la mégapromo
 Les vignettes des visages sont exportées à l'aide de l'API Images IIIF (exemple) et redimensionnées à une largeur fixe (afin d'agrandir les petites images, script resize.py). Elles sont ensuite agrégées en une mégaimage de portraits au format carré (script matrice.py). 
 
-Cette image est ensuite tuilée pour être visualisée avec [OpenSeadragon](https://openseadragon.github.io/docs/) (script make-deepzoom-tiles.py).
+Cette image est ensuite tuilée pour être visualisée avec [OpenSeadragon](https://openseadragon.github.io/docs/) (script make-deepzoom-tiles.py), un visualiseur offrant un zoom profond. Le script génère un fichier de métadonnées et une arborescence de tuiles, qui doivent être copiés dans l'application web de [visualisation](http://www.euklides.fr/blog/altomator/Megapixel/Visages-ENC.html).
+
+
 
 
 
