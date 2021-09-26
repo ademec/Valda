@@ -121,8 +121,7 @@ Pas la même période temporelle que les positions de thèses (1905-1930). Pas �
 ## Technologie utilisée : 
 
 - Jupyter notebook qui ouvre des liens vers l'appli Flask.
-- Application Flask ? Template ?
-- Base sql.
+- Application Flask
 - Portraits : BaseX, megapixel opencdrive.
 
 ## Attribution des tâches : 
@@ -175,7 +174,6 @@ Tâche préalable :
 - Antoine : transformation du corpus en txt, analyse de la fréquence des mots sur un échantillon, donne les mots les plus utilisés par les chartistes + taille des posititons de thèse. Mot le plus utilisé dans l'échantillon : roi. + Pattern stylistique : étiquettes grammaticales + mots outils qui donnent des patterns stylistiques + analyse des mots les plus discriminants sur une période de 30 ans (1850-1870 VS 1870-1900 etc). + Prendre le tableau des métadonnées avec TSV et faire un arbre de décision (ex : quand tu es une femme, tu as plus de chance d'étudier cette période...).
   - A faire demain : intervalle de 30 ans pour voir si les mots changent ? Identifier les patterns stylistiques les plus fréquentes et les mettre en contexte (= identifier les rangaines du chartistes ? rythme ternaire, adjectifs antéposés = à intégrer dans Jupyter Notebook ?)
 - Jean-Philippe : toutes les photos de promo dans gallica pix, identification des visages, trombinoscope géant géré en zoom profond. Partir des photos de promo et avoir le lien (manuel) vers IDREF ou les positions de thèses ? Rejoint la carte et créé un éco-sytème : perspective à long terme.
-  - A faire demain : 
 
 ### Idées pour la narration
 
