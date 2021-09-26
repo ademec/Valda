@@ -3,10 +3,13 @@ Les métadonnées élémentaires (année, niveau, recto ou verso, etc.) du jeu d
 
 Les images sont appelées via le serveur IIIF de l'ENC ([exemple](https://iiif.chartes.psl.eu/images/encprom/encprom_1904-1905_2_1/encprom_1904-1905_2_1_1.jpg/full/full/0/default.jpg)). 
 
-## Détection de visages
+## Détection d'objets et de visages
 Les images des promotions sont traitées avec plusieurs modèles de détection d'objets :
 - [Yolo v4](https://github.com/kiyoshiiriemon/yolov4_darknet) (dans le cas du jeu, détection de personnes et de cravates)
 - [MTCNN](https://github.com/jbrownlee/mtcnn) pour la détection des visages
+
+![Yolo v4](http://url/to/img.png)
+* Exemple de détection de cravates avec Yolo v4 *
 
 Les scripts générent des données .csv qui sont ensuite importées dans la base GallicaPix ([BaseX](https://basex.org/)).
 
