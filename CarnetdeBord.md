@@ -218,7 +218,6 @@ Analyse réalisée sur l'ensemble des positions de thèses (2950), représentant
 Analyse réalisée sur l'ensemble des positions de thèses (2950), représentant 8 336 760 mots. L'axe des ordonnées donne le nombre de mots par position ; l'axe des absisses représente l'identifiant des positions ordonnés par ordre chronologique. 
 
 ![Longueur](https://github.com/ademec/Valda/blob/main/lingua-valda/visualisations/Evolution-longueur-position-final.png)
-*Evolution de la longueur des positions de thèses)*
 
 ### Les idiosyncratismes du chartiste : 
 
@@ -232,8 +231,7 @@ Analyse réalisée sur l'ensemble des positions de thèses (2950), représentant
 
 **Temps de traitements** : 1h02'.
 
-**Livrable à exploiter** : 
-!(https://github.com/ademec/Valda/tree/main/lingua-valda/visualisations/Motifs-idiosyncratiques-chartistes.csv)
+**Livrable à exploiter** : Motifs-idiosyncratiques-chartistes.csv
 
 Quelques patterns intéressants : 
 
@@ -244,6 +242,18 @@ Quelques patterns intéressants :
 ![Capture1](https://github.com/ademec/Valda/blob/main/lingua-valda/visualisations/Capture%20d%E2%80%99e%CC%81cran%202021-09-26%20a%CC%80%2013.02.51.png)
 
 ![Capture2](https://github.com/ademec/Valda/blob/main/lingua-valda/visualisations/Capture%20d%E2%80%99e%CC%81cran%202021-09-26%20a%CC%80%2013.07.28.png)
+
+### Les mots discriminants par période : l'évolution des intérêts chartistes.
+
+Les analyses par TF-IDF (*term frequency-inverse term frequency*) permettent de mettre en valeur les mots qui sont les plus significatifs d'un corpus par rapport à l'autre. Nous nous sommes ici fondé sur un découpage par périodes de trente ans - artificiel, certes, mais déjà révélateurs de plusieurs choses.
+
+INSÉRER IMAGE : Tf-IDF-periode.png
+
+INSÉRER IMAGE : TF-IDF-mots.png
+
+
+
+
 
 
 
