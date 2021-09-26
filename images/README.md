@@ -13,6 +13,12 @@ Les images des promotions sont traitées avec plusieurs modèles de détection d
 
 Les scripts générent des données .csv qui sont ensuite importées dans la base GallicaPix.
 
+Des analyses quantitatives sont produites à partir des détections.
+
+![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)
+*Analyse des genres des promotions (1904-1933)*
+
+
 ## Génération de l'image de la mégapromo
 Les vignettes des visages sont exportées à l'aide de l'API Images IIIF (exemple) et redimensionnées à une largeur fixe (afin d'agrandir les petites images, script resize.py). Elles sont ensuite agrégées en une mégaimage de portraits au format carré (script matrice.py). 
 
