@@ -1,5 +1,6 @@
 
 import csv
+from operator import itemgetter
 import pandas as pd
 
 
@@ -14,7 +15,7 @@ def get_titles_and_url(csv_path):
 	with open(csv_path, 'r', encoding='utf-8') as opening:
 		table = csv.reader(opening)
 		for line in table:
-			titles_url.append([line[2], line[-1] + "/" + line[0]])
+			titles_url.append([line[2], line[-1] + "/" + line[0], line[6], line[3], line[4]])
 	# print(titles_url)
 	del titles_url[0]
 	return titles_url
@@ -33,7 +34,6 @@ def places_list(places_csv):
 		cities = csv.reader(opening)
 		for city in cities:
 			places.append([city[1], city[2], city[3]])
-	# print(places)
 	return places
 
 
@@ -50,14 +50,15 @@ def dict_title(placenames, titles):
 	for item in placenames:
 		temporary_list = []
 		for title in titles:
+			temporary_list2 = []
 			if item[0] in title[0]:
-				# print(item, " ==== ", title[0])
-				# temporary_list.append(title)
-				tag = '<br/><i>— <a href="{}" target="_blank">{}</a></i>'.format(title[1], title[0])
+				# tag = '<br/>— {}, {} : <i><a href="{}" target="_blank">{}</a></i> ({})'.format(title[3], title[4], title[1], title[0], title[2])
+				tag = '<br/>{}, {}, {} : <i><a href="{}" target="_blank">{}</a></i>.'.format(title[2], title[3], title[4], title[1], title[0])
+				# temporary_list.append(tag)
 				temporary_list.append(tag)
 			final = set(temporary_list)
 		places_dict2[item[0]] = "".join(final)
-	print(places_dict2)
+	# print(places_dict2)
 	return places_dict2
 
 
