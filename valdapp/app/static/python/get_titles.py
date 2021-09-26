@@ -13,7 +13,7 @@ def get_titles_and_url(csv_path):
 	with open(csv_path, 'r', encoding='utf-8') as opening:
 		table = csv.reader(opening)
 		for line in table:
-			titles_url.append([line[2], line[-1]])
+			titles_url.append([line[2], line[-1] + "/" + line[0]])
 	# print(titles_url)
 	del titles_url[0]
 	return titles_url
@@ -56,7 +56,4 @@ def dict_title(placenames, titles):
 	return place_dict
 				
 
-
-
-
-dict_title(titles_list("../csv/geocoder.csv"), get_titles_and_url("../csv/thesis_list.csv"))
+dict_title(titles_list("../csv/geocoder.csv"), get_titles_and_url("../csv/theses_URL_dev.csv"))
