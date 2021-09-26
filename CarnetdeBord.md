@@ -217,7 +217,7 @@ INSÉRER IMAGE : freq-total-final.png
 
 Analyse réalisée sur l'ensemble des positions de thèses (2950), représentant 8 336 760 mots. L'axe des ordonnées donne le nombre de mots par position ; l'axe des absisses représente l'identifiant des positions ordonnés par ordre chronologique. 
 
-![https://github.com/ademec/Valda/tree/main/lingua-valda/visualisations/Evolution-longueur-position-final.png]
+!(https://github.com/ademec/Valda/tree/main/lingua-valda/visualisations/Evolution-longueur-position-final.png)
 
 ### Les idiosyncratismes du chartiste : 
 
@@ -232,7 +232,7 @@ Analyse réalisée sur l'ensemble des positions de thèses (2950), représentant
 **Temps de traitements** : 1h02'.
 
 **Livrable à exploiter** : 
-![https://github.com/ademec/Valda/tree/main/lingua-valda/visualisations/Motifs-idiosyncratiques-chartistes.csv]
+!(https://github.com/ademec/Valda/tree/main/lingua-valda/visualisations/Motifs-idiosyncratiques-chartistes.csv)
 
 Quelques patterns intéressants : 
 
