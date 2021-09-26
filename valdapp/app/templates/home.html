@@ -1,0 +1,36 @@
+{% extends "conteneur.html" %}
+{% block corps %}
+<div>
+<p>
+	À l’occasion du bicentenaire de l’École nationale des chartes, l’ADEMEC, en partenariat et avec l’aide de l’École, organise un « hackathon bicentenaire ». L’objectif du hackathon est de proposer des créations numériques mettant en valeur les données sélectionnées, pour aborder l’histoire de l’École et sa production scientifique.
+</p>
+</div>
+<div>
+  <div id="my-map"></div>
+  <script>
+      window.onload = function () {
+        var basemap = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+              attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
+        });
+
+        $.getJSON("../static/json/map.geojson", function(data) {
+
+              var geojson = L.geoJson(data, {
+                  onEachFeature: function (feature, layer) {
+        // layer.bindPopup(feature.properties.Area_Name);
+        layer.bindPopup('<center><p>' + feature.properties.Places + '</p></center><div id="thesis" style="overflow:scroll; max-height:300px;"><p>' + feature.properties.Lieux + "</p></div>" );
+  }
+});
+
+              var map = L.map('my-map')
+              .fitBounds(geojson.getBounds());
+//    .setView([0.0,-10.0], 2);
+
+basemap.addTo(map);
+geojson.addTo(map);
+});
+
+  };
+</script>
+</div>
+{% endblock %}
