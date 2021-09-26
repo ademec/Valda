@@ -48,7 +48,7 @@ https://github.com/chartes/encpos/tree/master/data
 
 ##### Questions de recherche : 
 
-- Les sujets de recherche : périodes, lieux ?
+- Les sujets de recherche : quelles périodes et quels lieux ?
 - L'origine et l'évolution du genre.
 - Les lieux cités.
 - L'évolution stylistique des positions de thèse.
@@ -167,8 +167,7 @@ Tâche préalable :
 - Prototypes opérationnels.
 - Dimanche matin : mise en forme, présentation.
 
-
-## Bilan première journée
+## Bilan de la première journée
 
 ### Ce qu'on a fait / ce qu'il faut faire
 - Lucie + Jean-Damien : récupération des entités nommées "localisation", nettoyage des résultats sur Dataiku, récupération des coordonnées GPS des lieux, création d'une carte geojson ;
@@ -188,3 +187,14 @@ Notion que ce site sera un écosystème >> les trois ensembles se répondent, à
 2. Portrait et liaison des id entre eux ;
 3. Interrogation du corpus ;
 4. médiation culturelle (portrait type, mosaïque, graphe de genre) ;
+
+## Bilan de la deuxième demi-journée
+
+### Ce qu'on a fait
+
+- Jean-Damien : développement d'un script qui permet de localiser sur la cacrte une liste de thèses consacrée à un point précis.
+- Lucie :
+- Antoine :
+- Jean-Philippe : création d'une branche "images"
+- Aurélien :
+
