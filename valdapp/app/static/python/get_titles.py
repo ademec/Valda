@@ -57,7 +57,7 @@ def dict_title(placenames, titles):
 				temporary_list.append(tag)
 			final = set(temporary_list)
 		places_dict2[item[0]] = "".join(final)
-	# print(places_dict2)
+	print(places_dict2)
 	return places_dict2
 
 
@@ -72,4 +72,4 @@ def add_places_to_csv(csv_geocoder, dict_with_places):
 
 				
 # dict_title(places_list("../csv/geocoder.csv"), get_titles_and_url("../csv/theses_URL_dev.csv"))
-add_places_to_csv("../csv/geocoder.csv", dict_title(places_list("../csv/geocoder.csv"), get_titles_and_url("../csv/theses_URL_dev.csv")))
+add_places_to_csv("../csv/geocoder_provinces.csv", dict_title(places_list("../csv/geocoder_provinces.csv"), get_titles_and_url("../csv/theses_URL_dev.csv")))
