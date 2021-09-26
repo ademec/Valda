@@ -29,6 +29,42 @@ Cette image est ensuite tuilée pour être visualisée avec [OpenSeadragon](http
 *L'image des portraits dans OpenSeadragon*
 
 
+## Identification des élèves
+Un test est mené sur la première photographie de promotion disponible [(1904-1905)](promotion). L'image est traité par l'OCR de l'API Google Cloud Vision. L'OCR renvoie le texte suivant :
+- M: Serpette de Buscar cond 
+- Mr Retter 
+Colinant 
+4. Laternche 
+l'Aubert 
+NP. Gausier 
+4. Requé 
+Hide Florival 
+M' Artonne
+M' - M. Bigot 
+e - # Jawene 
+ll. Desage 
+Canal 
+M. de Maupachant 
+1.4.7 sebeboede 
+Graziani 
+M. I. de Larme 
+il Valment 
+o Cochin 
+M'Mousset 
+de Man 
+M. Valois
+
+![OCR](https://github.com/ademec/Valda/blob/images/images/visuels/google.jpg)
+
+
+Une comparaison avec les noms du [référentiel des chartistes](https://github.com/ademec/hackathon)  permet de retrouver les patronymes corrects :
+Serpette De Bersaucourt
+
+
+Les différents modèles d'identification des personnes présentes sur les photos (au recto, au verso, par renvois de numéro, etc.) incite à mettre en place une interface participative nourrie par les détections de visage et des propositions de nom extraites des métadonnées.
+
+
+
 
 
 
