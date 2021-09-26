@@ -211,13 +211,14 @@ L'objectif de cette partie proprement stylistique sur les positions de thèse é
 
 Analyse réalisée sur l'ensemble des positions de thèses (2950), représentant 8 336 760 mots. 
 
-INSÉRER IMAGE : freq-total-final.png
+![Fréquence](https://github.com/ademec/Valda/blob/main/lingua-valda/visualisations/freq-total-final.png)
 
 ### Évolution de la longueur des positions des positions de thèses
 
 Analyse réalisée sur l'ensemble des positions de thèses (2950), représentant 8 336 760 mots. L'axe des ordonnées donne le nombre de mots par position ; l'axe des absisses représente l'identifiant des positions ordonnés par ordre chronologique. 
 
-!(https://github.com/ademec/Valda/tree/main/lingua-valda/visualisations/Evolution-longueur-position-final.png)
+![Longueur](https://github.com/ademec/Valda/blob/main/lingua-valda/visualisations/Evolution-longueur-position-final.png)
+*Evolution de la longueur des positions de thèses)*
 
 ### Les idiosyncratismes du chartiste : 
 
@@ -240,7 +241,10 @@ Quelques patterns intéressants :
 - L'utilisation des compléments de nom.
 - La précision de la date d'un événement historique.
 
-https://github.com/ademec/Valda/tree/main/lingua-valda/visualisations/Capture d’écran 2021-09-26 à 13.07.28
-https://github.com/ademec/Valda/tree/main/lingua-valda/visualisations/Capture d’écran 2021-09-26 à 13.02.51
+![Capture1](https://github.com/ademec/Valda/blob/main/lingua-valda/visualisations/Capture%20d%E2%80%99e%CC%81cran%202021-09-26%20a%CC%80%2013.02.51.png)
+
+![Capture2](https://github.com/ademec/Valda/blob/main/lingua-valda/visualisations/Capture%20d%E2%80%99e%CC%81cran%202021-09-26%20a%CC%80%2013.07.28.png)
+
+
 
 
