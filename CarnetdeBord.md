@@ -247,9 +247,9 @@ Quelques patterns intéressants :
 
 Les analyses par TF-IDF (*term frequency-inverse term frequency*) permettent de mettre en valeur les mots qui sont les plus significatifs d'un corpus par rapport à l'autre. Nous nous sommes ici fondé sur un découpage par périodes de trente ans - artificiel, certes, mais déjà révélateurs de plusieurs choses.
 
-INSÉRER IMAGE : Tf-IDF-periode.png
+![Tif1](https://github.com/ademec/Valda/blob/main/lingua-valda/visualisations/Tf-IDF-periode.png)
 
-INSÉRER IMAGE : TF-IDF-mots.png
+![Tif2](https://github.com/ademec/Valda/blob/main/lingua-valda/visualisations/TF-IDF-mots.png)
 
 
 
