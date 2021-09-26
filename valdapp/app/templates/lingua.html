@@ -1,0 +1,50 @@
+{% extends "conteneur.html" %}
+{% block corps %}
+<div>
+  <center><h2>Les mots des chartistes</h2></center>
+<p>
+	<i>
+   À l’occasion du bicentenaire de l’École nationale des chartes, l’ADEMEC, en partenariat et avec l’aide de l’École, organise un « hackathon bicentenaire ». L’objectif du hackathon est de proposer des créations numériques mettant en valeur les données sélectionnées, pour aborder l’histoire de l’École et sa production scientifique. 
+  </i>
+</p>
+</div>
+<div>
+  <h1 id="introduction">Introduction</h1>
+<p>L&#39;objectif de cette partie proprement stylistique sur les positions de thèse était d&#39;explorer d&#39;un point de vue diachronique ce corpus textuel. Nous nous sommes penchés sur trois questions : </p>
+<ul>
+<li>Les thèmes ou concepts abordés dans ces positions de thèses.</li>
+<li>L&#39;évolution de la longueur de ces positions, et donc de leur statut, de leurs codes ou de leur importance.</li>
+<li>Les idiosyncratismes stylistiques représentatifs de la langue employée par les chartistes au sein de ces positions et l&#39;évolution de la langue et du &quot;parler&quot; scientifique et historique.</li>
+</ul>
+<h2 id="r-sultats">Résultats</h2>
+<h3 id="les-mots-du-chartistes-">Les mots du chartistes :</h3>
+<p>Analyse réalisée sur l&#39;ensemble des positions de thèses (2950), représentant 8 336 760 mots. </p>
+<p><img src="../static/img//freq-total-final.png" alt="Fréquence"></p>
+<h3 id="-volution-de-la-longueur-des-positions-des-positions-de-th-ses">Évolution de la longueur des positions des positions de thèses</h3>
+<p>Analyse réalisée sur l&#39;ensemble des positions de thèses (2950), représentant 8 336 760 mots. L&#39;axe des ordonnées donne le nombre de mots par position ; l&#39;axe des absisses représente l&#39;identifiant des positions ordonnés par ordre chronologique. </p>
+<p><img src="../static/img/Evolution-longueur-position-final.png" alt="Longueur"></p>
+<h3 id="les-idiosyncratismes-du-chartiste-">Les idiosyncratismes du chartiste :</h3>
+<p>Analyse réalisée sur l&#39;ensemble des positions de thèses (2950), représentant 8 336 760 mots. </p>
+<p><strong>Procédure :</strong> </p>
+<ul>
+<li>Tokénisation</li>
+<li>Lemmatisation </li>
+<li>Étiquetage morphosyntaxique</li>
+</ul>
+<p><strong>Temps de traitement</strong> : 1h02&#39;.</p>
+<p><strong>Livrable à exploiter</strong> : Motifs-idiosyncratiques-chartistes.csv</p>
+<p>Quelques patterns intéressants : </p>
+<ul>
+<li>L&#39;énumération des noms propres.</li>
+<li>L&#39;utilisation des compléments de nom.</li>
+<li>La précision de la date d&#39;un événement historique.</li>
+</ul>
+<p><img src="../static/img/Capture%20d%E2%80%99e%CC%81cran%202021-09-26%20a%CC%80%2013.02.51.png" style="width: 1000px; height: auto;" alt="Capture1"></p>
+<p><img src="../static/img/Capture%20d%E2%80%99e%CC%81cran%202021-09-26%20a%CC%80%2013.07.28.png" style="width: 1000px; height: auto;" alt="Capture2"></p>
+<h3 id="les-mots-discriminants-par-p-riode-l-volution-des-int-r-ts-chartistes-">Les mots discriminants par période : l&#39;évolution des intérêts chartistes.</h3>
+<p>Les analyses par TF-IDF (<em>term frequency-inverse term frequency</em>) permettent de mettre en valeur les mots qui sont les plus significatifs dans un corpus par rapport aux autres. Nous nous sommes ici fondés sur un découpage par période de trente ans. La périodisation est artificielle, certes, mais elle est déjà révélatrice de plusieurs choses.</p>
+<p><img src="../static/img/Tf-IDF-periode.png" alt="Tif1"></p>
+<p><img src="../static/img/TF-IDF-mots.png" alt="Tif2"></p>
+
+</div>
+{% endblock %}

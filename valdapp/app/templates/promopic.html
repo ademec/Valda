@@ -1,0 +1,80 @@
+{% extends "conteneur.html" %}
+{% block corps %}
+<div>
+  <center><h2>Les visages des chartistes</h2></center>
+<p>
+	<i>
+   À l’occasion du bicentenaire de l’École nationale des chartes, l’ADEMEC, en partenariat et avec l’aide de l’École, organise un « hackathon bicentenaire ». L’objectif du hackathon est de proposer des créations numériques mettant en valeur les données sélectionnées, pour aborder l’histoire de l’École et sa production scientifique. 
+  </i>
+</p>
+</div>
+<h2 id="importation-des-images-de-promotion">Importation des images de promotion</h2>
+<p>Les métadonnées élémentaires (année, niveau, recto ou verso, etc.) du jeu de données <a href="https://github.com/ademec/hackathon">&quot;Photos de promotion&quot;</a> sont importées dans le démonstrateur <a href="https://github.com/altomator/Image_Retrieval">GallicaPix</a> (archictecture (<a href="https://basex.org/">BaseX</a> + REST + XQuery + IIIF). </p>
+<p>Les images sont appelées via le serveur IIIF de l&#39;ENC (<a href="https://iiif.chartes.psl.eu/images/encprom/encprom_1904-1905_2_1/encprom_1904-1905_2_1_1.jpg/full/full/0/default.jpg">exemple</a>). </p>
+<h2 id="d-tection-d-objets-et-de-visages">Détection d&#39;objets et de visages</h2>
+<p>Les images des promotions sont traitées avec plusieurs modèles de détection d&#39;objets :</p>
+<ul>
+<li><a href="https://github.com/kiyoshiiriemon/yolov4_darknet">Yolo v4</a> (dans le cas du jeu, détection de personnes et de cravates)</li>
+<li><a href="https://github.com/jbrownlee/mtcnn">MTCNN</a> pour la détection des visages</li>
+</ul>
+<p><img src="../static/img/cravates.jpg" style="width: 1000px; height: auto;" alt="Yolo v4">
+<em>Exemple de détection de cravates avec Yolo v4</em></p>
+<p>Les scripts générent des données .csv qui sont ensuite importées dans la base GallicaPix.</p>
+<p>Des analyses quantitatives sont produites à partir des détections.</p>
+<p><img src="../static/img/genres.jpg" style="width: 1000px; height: auto;" alt="Genres des élèves">
+<em>Analyse des genres des promotions (1904-1933)</em></p>
+<h2 id="g-n-ration-de-l-image-de-la-m-gapromo-">Génération de l&#39;image de la &quot;mégapromo&quot;</h2>
+<p>Les vignettes de 820 visages sont exportées à l&#39;aide de l&#39;API Images IIIF (exemple) et redimensionnées à une largeur fixe (afin d&#39;agrandir les petites images, script resize.py). Elles sont ensuite agrégées en une mégaimage de portraits au format carré (script matrice.py). </p>
+<p>Cette image est ensuite tuilée pour être visualisée avec <a href="https://openseadragon.github.io/docs/">OpenSeadragon</a> (script make-deepzoom-tiles.py), un visualiseur offrant un zoom profond. Le script génère un fichier de métadonnées et une arborescence de tuiles, qui doivent être copiés dans l&#39;application web de <a href="http://www.euklides.fr/blog/altomator/Megapixel/Visages-ENC.html">visualisation</a>.</p>
+<p><a href="http://www.euklides.fr/blog/altomator/Megapixel/Visages-ENC.html"><img src="../static/img//mosaique.jpg" alt="megapixel"></a></p>
+<p><em>L&#39;image des portraits dans OpenSeadragon</em></p>
+<h2 id="identification-des-l-ves">Identification des élèves</h2>
+<p>Un test est mené sur la première photographie de promotion disponible <a href="promotion">(1904-1905)</a>. L&#39;image est traité par l&#39;OCR de l&#39;API Google Cloud Vision. L&#39;OCR renvoie le texte suivant :</p>
+<ul>
+<li>M: Serpette de Buscar cond </li>
+<li>Mr Retter </li>
+<li>Colinant </li>
+<li><ol>
+<li>Laternche </li>
+</ol>
+</li>
+<li>l&#39;Aubert </li>
+<li>NP. Gausier </li>
+<li><ol>
+<li>Requé </li>
+</ol>
+</li>
+<li>Hide Florival </li>
+<li>M&#39; Artonne</li>
+<li>M&#39; - M. Bigot </li>
+<li>e - # Jawene </li>
+<li>ll. Desage </li>
+<li>Canal </li>
+<li>M. de Maupachant </li>
+<li>1.4.7 sebeboede </li>
+<li>Graziani </li>
+<li>M. I. de Larme </li>
+<li>il Valment </li>
+<li>o Cochin </li>
+<li>M&#39;Mousset </li>
+<li>de Man </li>
+<li>M. Valois</li>
+</ul>
+<p><img src="../static/img/google.jpg" alt="OCR"></p>
+<p>Une comparaison avec les noms du <a href="https://github.com/ademec/hackathon">référentiel des chartistes</a>  permet de retrouver les patronymes corrects :</p>
+<ul>
+<li>Serpette De Bersaucourt </li>
+<li>George Ritter </li>
+<li>Pierre Colmant </li>
+<li>Robert Latouche </li>
+<li>Gaston Robert </li>
+<li>Pierre Gautier </li>
+<li>Jean Régné </li>
+<li>Henri Roussen De Florival, De </li>
+<li>André Artonne ...</li>
+</ul>
+<p>Les différents modèles d&#39;identification des personnes présentes sur les photos (au recto, au verso, par renvois de numéro, etc.) incite à mettre en place une interface participative nourrie par les détections de visage et des propositions de nom extraites des métadonnées.</p>
+<p>Cette identification permet ensuite de lier les visages à leur position de thèse et à leurs identifiants IDREF et VIAF.</p>
+<p><img src="../static/img/identification.jpg" alt="ids"></p>
+
+{% endblock %}
