@@ -8,6 +8,8 @@ Les images des promotions sont traitées avec plusieurs modèles de détection d
 - Yolo v4 (dans le cas du jeu, détection de personnes et de cravates)
 - [MTCNN](https://github.com/jbrownlee/mtcnn) pour la détection des visages
 
+Les scripts générent des données .csv qui sont ensuite importées dans la base GallicaPix ([BaseX](https://basex.org/)).
+
 ## Génération de l'image de la mégapromo
 Les vignettes des visages sont exportées à l'aide de l'API Images IIIF (exemple) et redimensionnées à une largeur fixe (afin d'agrandir les petites images, script resize.py). Elles sont ensuite agrégées en une mégaimage de portraits au format carré (script matrice.py). 
 
