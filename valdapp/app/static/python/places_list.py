@@ -1,6 +1,8 @@
 import csv
 import pandas as pd
 
+
+# USING CSV
 def places_list(csv_path):
 	places = []
 	with open(csv_path, 'r', encoding='utf-8') as opening:
@@ -13,6 +15,8 @@ def places_list(csv_path):
 		for item in sorted(new_list):
 			print(item)
 
+
+# USING PANDAS
 def places_list2(csv_path, output):
 	places = []
 	df = pd.read_csv(csv_path, sep=";")
