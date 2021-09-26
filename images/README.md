@@ -4,9 +4,14 @@ Les métadonnées élémentaires (année, niveau, recto ou verso, etc.) du jeu d
 Les images sont appelées via le serveur IIIF de l'ENC ([exemple](https://iiif.chartes.psl.eu/images/encprom/encprom_1904-1905_2_1/encprom_1904-1905_2_1_1.jpg/full/full/0/default.jpg)). 
 
 ## Détection de visages
+Les images des promotions sont traitées avec plusieurs modèles de détection d'objets :
+- Yolo v4 (dans le cas du jeu, détection de personnes et de cravates)
+- [MTCNN](https://github.com/jbrownlee/mtcnn) pour la détection des visages
 
 ## Génération de l'image de la mégapromo
+Les vignettes des visages sont exportées à l'aide de l'API Images IIIF (exemple) et redimensionnées à une largeur fixe (afin d'agrandir les petites images, script resize.py). Elles sont ensuite agrégées en une mégaimage de portraits au format carré (script matrice.py). 
 
+Cette image est ensuite tuilée pour être visualisée avec OpenSeaDragon
 
 
 
