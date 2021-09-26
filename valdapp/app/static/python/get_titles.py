@@ -53,39 +53,22 @@ def dict_title(placenames, titles):
 			if item[0] in title[0]:
 				# print(item, " ==== ", title[0])
 				# temporary_list.append(title)
-				tag = '<br/><a href="{}" target="_blank">{}</a>'.format(title[1], title[0])
+				tag = '<br/><i>— <a href="{}" target="_blank">{}</a></i>'.format(title[1], title[0])
 				temporary_list.append(tag)
-		places_dict2[item[0]] = "".join(temporary_list)
+			final = set(temporary_list)
+		places_dict2[item[0]] = "".join(final)
 	# print(places_dict2)
 	return places_dict2
 
 
 def add_places_to_csv(csv_geocoder, dict_with_places):
-	with open(csv_geocoder, 'r', encoding='utf-8') as opening:
-		geocode = csv.reader(opening)
-		for item in dict_with_places:
-			counter = 0
-			for thesis in dict_with_places[item]:
-				counter += 1
-				# print(counter)
-				# print(thesis[0])
-		for line in geocode:
-			place = line[1]
-			# print(dict_with_places[place])
 	df = pd.read_csv(csv_geocoder)
 	Lieux = []
 	for index, row in df.iterrows():
-		print(dict_with_places[row["Places"]])
+		# print(dict_with_places[row["Places"]])
 		Lieux.append(dict_with_places[row["Places"]])
 	df["Lieux"] = Lieux
 	df.to_csv(csv_geocoder)
-
-		# for place in dict_with_places:
-			# if place == row["Places"] or place == row["Places"].title():
-				# df["Lieux"] = dict_with_places[place]
-				# df.to_csv(csv_geocoder, index=False)
-		# print(df["Lieux"])
-
 
 				
 # dict_title(places_list("../csv/geocoder.csv"), get_titles_and_url("../csv/theses_URL_dev.csv"))
