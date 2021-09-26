@@ -249,6 +249,12 @@ Les analyses par TF-IDF (*term frequency-inverse term frequency*) permettent de 
 
 ![Tif2](https://github.com/ademec/Valda/blob/main/lingua-valda/visualisations/TF-IDF-mots.png)
 
+## Prolongations et perspectives : 
+
+L'analyse des métadonnées associées aux positions de thèse nous a également incité à nous pencher sur des questions sociologiques, en particulier l'évolution de la place des femmes au sein de l'école ainsi que leurs choix scientifiques. Nous nous sommes pour cela fondés sur une méthode de classification non-supervisée : les arbres de décision. Cette méthode très visuelle permet de mettre en évidence les variables qui ont le plus de poids dans l'attribution d'une prédiction (ici, le fait d'être un homme ou une femme chartiste). Ces analyses se sont fondés sur quatre variables : le genre, l'année de promotion, le fait d'avoir été professeur à l'École des chartes, la période d'étude (avant ou après telle date). Les résultats se présentent ainsi : 
+
+![Arbre](https://github.com/ademec/Valda/blob/main/lingua-valda/visualisations/Decision_plot.png)
+
 
 
 
