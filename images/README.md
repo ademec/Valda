@@ -9,7 +9,6 @@ Les images des promotions sont traitées avec plusieurs modèles de détection d
 - [MTCNN](https://github.com/jbrownlee/mtcnn) pour la détection des visages
 
 ![Yolo v4](https://github.com/ademec/Valda/blob/images/images/visuels/cravates.jpg)
-
 *Exemple de détection de cravates avec Yolo v4*
 
 Les scripts générent des données .csv qui sont ensuite importées dans la base GallicaPix ([BaseX](https://basex.org/)).
