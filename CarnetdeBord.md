@@ -187,4 +187,4 @@ Notion que ce site sera un écosystème >> les trois ensembles se répondent, à
 1. Visualisation géographique ;
 2. Portrait et liaison des id entre eux ;
 3. Interrogation du corpus ;
-4. médiation culturelle (portrait type, mosaïque, graph de genre) ;
+4. médiation culturelle (portrait type, mosaïque, graphe de genre) ;
