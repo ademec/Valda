@@ -194,7 +194,7 @@ Notion que ce site sera un écosystème >> les trois ensembles se répondent, à
 
 - Jean-Damien : développement d'un script qui permet de localiser sur la cacrte une liste de thèses consacrée à un point précis.
 - Aurélien / Lucie : précision des données de localisation, rédaction du carnet de bord
-- Antoine : création d'arbres de décision
-- Jean-Philippe : création d'une branche "images", 
+- Antoine : création d'arbres de décision, rédaction de son protocole de recherche
+- Jean-Philippe : création d'une branche "images", rédaction de son protocole de recherche
 
 
