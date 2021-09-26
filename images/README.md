@@ -24,7 +24,8 @@ Les vignettes de 820 visages sont exportées à l'aide de l'API Images IIIF (exe
 
 Cette image est ensuite tuilée pour être visualisée avec [OpenSeadragon](https://openseadragon.github.io/docs/) (script make-deepzoom-tiles.py), un visualiseur offrant un zoom profond. Le script génère un fichier de métadonnées et une arborescence de tuiles, qui doivent être copiés dans l'application web de [visualisation](http://www.euklides.fr/blog/altomator/Megapixel/Visages-ENC.html).
 
-![megapixel](https://github.com/ademec/Valda/blob/images/images/visuels/mosaique.jpg)
+[![megapixel](https://github.com/ademec/Valda/blob/images/images/visuels/mosaique.jpg)](http://www.euklides.fr/blog/altomator/Megapixel/Visages-ENC.html)
+
 *L'image des portraits dans OpenSeadragon*
 
 
