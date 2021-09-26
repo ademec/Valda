@@ -1,5 +1,5 @@
 ## Importation des images de promotion
-Les métadonnées élémentaires (année, niveau, recto ou verso, etc.) du jeu de données ["Photos de promotion"](https://github.com/ademec/hackathon) sont importées dans le démonstrateur [GallicaPix](https://github.com/altomator/Image_Retrieval). 
+Les métadonnées élémentaires (année, niveau, recto ou verso, etc.) du jeu de données ["Photos de promotion"](https://github.com/ademec/hackathon) sont importées dans le démonstrateur [GallicaPix](https://github.com/altomator/Image_Retrieval) (archictecture ([BaseX](https://basex.org/) + REST + XQuery + IIIF). 
 
 Les images sont appelées via le serveur IIIF de l'ENC ([exemple](https://iiif.chartes.psl.eu/images/encprom/encprom_1904-1905_2_1/encprom_1904-1905_2_1_1.jpg/full/full/0/default.jpg)). 
 
@@ -11,7 +11,7 @@ Les images des promotions sont traitées avec plusieurs modèles de détection d
 ![Yolo v4](https://github.com/ademec/Valda/blob/images/images/visuels/cravates.jpg)
 *Exemple de détection de cravates avec Yolo v4*
 
-Les scripts générent des données .csv qui sont ensuite importées dans la base GallicaPix ([BaseX](https://basex.org/)).
+Les scripts générent des données .csv qui sont ensuite importées dans la base GallicaPix.
 
 ## Génération de l'image de la mégapromo
 Les vignettes des visages sont exportées à l'aide de l'API Images IIIF (exemple) et redimensionnées à une largeur fixe (afin d'agrandir les petites images, script resize.py). Elles sont ensuite agrégées en une mégaimage de portraits au format carré (script matrice.py). 
