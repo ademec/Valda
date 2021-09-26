@@ -58,12 +58,18 @@ Un test est mené sur la première photographie de promotion disponible [(1904-1
 
 
 Une comparaison avec les noms du [référentiel des chartistes](https://github.com/ademec/hackathon)  permet de retrouver les patronymes corrects :
-- Serpette De Bersaucourt
+- Serpette De Bersaucourt 
+- George Ritter 
+- Pierre Colmant 
+- Robert Latouche 
+- Gaston Robert 
+- Pierre Gautier 
+- Jean Régné 
+- Henri Roussen De Florival, De 
+- André Artonne ...
 
 
 Les différents modèles d'identification des personnes présentes sur les photos (au recto, au verso, par renvois de numéro, etc.) incite à mettre en place une interface participative nourrie par les détections de visage et des propositions de nom extraites des métadonnées.
-
-![OCR](https://github.com/ademec/Valda/blob/images/images/visuels/google.jpg)
 
 Cette identification permet ensuite de lier les visages à leur position de thèse et à leurs identifiants IDREF et VIAF.
 
