@@ -197,4 +197,49 @@ Notion que ce site sera un écosystème >> les trois ensembles se répondent, à
 - Antoine : création d'arbres de décision, rédaction de son protocole de recherche
 - Jean-Philippe : création d'une branche "images", rédaction de son protocole de recherche
 
+# Introduction
+
+L'objectif de cette partie proprement stylistique sur les positions de thèse était d'explorer d'un point de vue diachronique ce corpus textuel. Nous nous sommes penchés sur trois questions : 
+
+- Les thèmes ou concepts abordés dans ces positions de thèses.
+- L'évolution de la longueur de ces positions, et donc de leur statut, de leurs codes ou de leur importance.
+- Les idiosyncratismes stylistiques représentatifs de la langue employée par les chartistes au sein de ces positions et l'évolution de la langue et du "parler" scientifique et historique.
+
+## Résultats
+
+### Les mots du chartistes : 
+
+Analyse réalisée sur l'ensemble des positions de thèses (2950), représentant 8 336 760 mots. 
+
+INSÉRER IMAGE : freq-total-final.png
+
+### Évolution de la longueur des positions des positions de thèses
+
+Analyse réalisée sur l'ensemble des positions de thèses (2950), représentant 8 336 760 mots. L'axe des ordonnées donne le nombre de mots par position ; l'axe des absisses représente l'identifiant des positions ordonnés par ordre chronologique. 
+
+INSÉRER IMAGE : Evolution-longueur-position-final.png
+
+### Les idiosyncratismes du chartiste : 
+
+Analyse réalisée sur l'ensemble des positions de thèses (2950), représentant 8 336 760 mots. 
+
+**Procédure :** 
+
+- Tokénisation
+- Lemmatisation 
+- Étiquetage morphosyntaxique
+
+**Temps de traitements** : 1h02'.
+
+**Livrable à exploiter** : Motifs-idiosyncratiques-chartistes.csv
+
+Quelques patterns intéressants : 
+
+- L'énumération des noms propres.
+- L'utilisation des compléments de nom.
+- La précision de la date d'un événement historique.
+
+INSÉRER IMAGE : Capture d’écran 2021-09-26 à 13.07.28
+INSÉRER IMAGE : Capture d’écran 2021-09-26 à 13.02.51
+
 
