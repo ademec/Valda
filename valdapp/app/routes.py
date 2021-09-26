@@ -29,3 +29,21 @@ def home():
     """Loading the home page.
     """
     return render_template("home.html")
+
+@app.route("/promopic")
+def promopic():
+    """Loading the pictures page.
+    """
+    return render_template("promopic.html")
+
+@app.route("/lingua")
+def lingua():
+    """Loading the linguage page.
+    """
+    return render_template("lingua.html")
+
+@app.route("/horizon")
+def horizon():
+    """Loading the horizon page.
+    """
+    return render_template("horizon.html")
