@@ -18,7 +18,7 @@
               var geojson = L.geoJson(data, {
                   onEachFeature: function (feature, layer) {
         // layer.bindPopup(feature.properties.Area_Name);
-        layer.bindPopup('<center><p>' + feature.properties.Places + '</p></center><p>' + feature.properties.Lieux + "</p>" );
+        layer.bindPopup('<center><p>' + feature.properties.Places + '</p></center><div id="thesis" style="overflow:scroll; max-height:300px;"><p>' + feature.properties.Lieux + "</p></div>" );
   }
 });
 
