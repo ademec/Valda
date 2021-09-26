@@ -2,15 +2,45 @@
 {% block corps %}
 <div>
 <p>
-	À l’occasion du bicentenaire de l’École nationale des chartes, l’ADEMEC, en partenariat et avec l’aide de l’École, organise un « hackathon bicentenaire ». L’objectif du hackathon est de proposer des créations numériques mettant en valeur les données sélectionnées, pour aborder l’histoire de l’École et sa production scientifique.
+	<i>
+   À l’occasion du bicentenaire de l’École nationale des chartes, l’ADEMEC, en partenariat et avec l’aide de l’École, organise un « hackathon bicentenaire ». L’objectif du hackathon est de proposer des créations numériques mettant en valeur les données sélectionnées, pour aborder l’histoire de l’École et sa production scientifique. 
+  </i>
+</p>
+<p>
+  L'équipe « VALDA » (<i>Valorisation data</i> : Lucie Rondeau du Noyer, Antoine Silvestre de Sacy, Aurélien Conraux, Jean-Philippe Moreux, Jean-Damien Généro) a cherché à lier trois jeux de données : les positions de thèse des archivistes-paléographes, les photographies de promotion et le référentiel wikidata.
+</p>
+<p>
+  L'objectif est d'extraire et de représenter, de manière simple et attractive, des ensembles de données liées aux chartistes. Pour cela, ce site présente trois prototypes à partir de données visuelles, textuelles et quantitatives :
+  <ul>
+    <li>
+      Accéder aux positions de thèse soit par les lieux, soit par l'image, soit par les mots.
+    </li>
+    <li>
+      Analyser les photographies pour en tirer des éléments collectifs (galerie de l'ensemble des individus), des éléments individuels (reconnaissance des personnes) ou sociologiques (port de la cravate, etc).
+    </li>
+    <li>
+      Explorer d'un point de vue diachronique les textes des positions de thèses.
+    </li>
+  </ul>
 </p>
 </div>
 <div>
   <div id="my-map"></div>
+  <div>
+    <p>Cliquer sur un lieu vous permet d'accéder à la liste des thèses dont les titres mentionnent ce lieu. Vous pouvez ensuite accéder à la position de thèse correspondante.</p>
+  </div>
+  <div style="margin-top:50px; text-align:center;">
+    <a href="{{url_for('promopic')}}" target="_blank"><img src="../static/img/mosaique.jpg"></a>
+    <p><a href="{{url_for('promopic')}}" target="_blank">Cliquez pour accéder aux analyses iconographiques !</a></p>
+  </div>
+  <div style="margin-top:50px; text-align:center;">
+    <a href="{{url_for('lingua')}}" target="_blank"><img src="../static/img/Tf-IDF-periode.png"></a>
+    <p><a href="{{url_for('lingua')}}" target="_blank">Cliquez pour accéder aux analyses linguistiques !</a></p>
+  </div>
   <script>
       window.onload = function () {
         var basemap = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-              attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a>'
+              attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> | Carte des lieux mentionnés dans les thèses des archivistes-paléographes'
         });
 
         $.getJSON("../static/json/map.geojson", function(data) {
