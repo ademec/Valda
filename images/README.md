@@ -19,12 +19,13 @@ Des analyses quantitatives sont produites à partir des détections.
 *Analyse des genres des promotions (1904-1933)*
 
 
-## Génération de l'image de la mégapromo
-Les vignettes des visages sont exportées à l'aide de l'API Images IIIF (exemple) et redimensionnées à une largeur fixe (afin d'agrandir les petites images, script resize.py). Elles sont ensuite agrégées en une mégaimage de portraits au format carré (script matrice.py). 
+## Génération de l'image de la "mégapromo"
+Les vignettes de 820 visages sont exportées à l'aide de l'API Images IIIF (exemple) et redimensionnées à une largeur fixe (afin d'agrandir les petites images, script resize.py). Elles sont ensuite agrégées en une mégaimage de portraits au format carré (script matrice.py). 
 
 Cette image est ensuite tuilée pour être visualisée avec [OpenSeadragon](https://openseadragon.github.io/docs/) (script make-deepzoom-tiles.py), un visualiseur offrant un zoom profond. Le script génère un fichier de métadonnées et une arborescence de tuiles, qui doivent être copiés dans l'application web de [visualisation](http://www.euklides.fr/blog/altomator/Megapixel/Visages-ENC.html).
 
-
+![megapixel](https://github.com/ademec/Valda/blob/images/images/visuels/mosaique.jpg)
+*L'image des portraits dans OpenSeadragon*
 
 
 
