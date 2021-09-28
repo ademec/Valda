@@ -18,7 +18,7 @@ Les scripts générent des données .csv qui sont ensuite importées dans la bas
 
 Des analyses quantitatives sont produites à partir des détections. 
 
-[![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-cravates.htm)
+[![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-cravate.htm)
 
 *Analyse du port de la cravate, promotions 1904-1933 (grapheur : Highcharts)*
 
