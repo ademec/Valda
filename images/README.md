@@ -70,10 +70,11 @@ Une comparaison avec les noms du [référentiel des chartistes](https://github.c
 - André Artonne ...
 
 
-Les différents modèles d'identification des personnes présentes sur les photos (au recto, au verso, par renvois de numéro, etc.) incite à mettre en place une interface participative nourrie par les détections de visage et des propositions de nom extraites des métadonnées.
+La complexité des différents modèles d'identification des élèves présents sur les photos (au recto, au verso, par renvois de numéro, etc.) incite plutôt à mettre en place une interface participative nourrie par les détections de visage et les propositions de nom extraites du référentiel des chartistes (avec l'information de l'année de promotion).
 
-Cette identification permet ensuite de lier les visages à leur position de thèse et à leurs identifiants IDREF et VIAF.
+Cette identification permet ensuite de lier les visages à leur position de thèse et à leurs identifiants IDREF et VIAF. Un test est réalisé sur la promotion 1904-1905.
 
 ![ids](https://github.com/ademec/Valda/blob/images/images/visuels/identification.jpg)
 
+## Diffusion des données avec IIIF
 
