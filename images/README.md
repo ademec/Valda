@@ -1,3 +1,6 @@
+# [Hackathon du bicentenaire de l'Ecole nationale des Chartes](http://www.chartes.psl.eu/fr/actualite/hackathon-du-bicentenaire) (septembre 2021)
+
+
 ## Importation des images de promotion
 Les métadonnées élémentaires (année, niveau, recto ou verso, etc.) du jeu de données ["Photos de promotion"](https://github.com/ademec/hackathon) sont importées dans le démonstrateur [GallicaPix](https://github.com/altomator/Image_Retrieval) (architecture ([BaseX](https://basex.org/) + REST + XQuery + IIIF). 
 
@@ -13,7 +16,10 @@ Les images des promotions sont traitées avec plusieurs modèles de détection d
 
 Les scripts générent des données .csv qui sont ensuite importées dans la base GallicaPix.
 
-Des analyses quantitatives sont produites à partir des détections. Dans l'exemple suivant, les visages des élèves femmes sont annotés manuellement puis des statistiques sont produites avec BaseX.
+Des analyses quantitatives sont produites à partir des détections. 
+
+
+Dans l'exemple suivant, les visages des élèves femmes sont annotés manuellement puis des statistiques sont produites avec BaseX.
 
 [![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-genrees_an.htm)
 
