@@ -1,3 +1,5 @@
+# Hackathon 
+
 ## Importation des images de promotion
 Les métadonnées élémentaires (année, niveau, recto ou verso, etc.) du jeu de données ["Photos de promotion"](https://github.com/ademec/hackathon) sont importées dans le démonstrateur [GallicaPix](https://github.com/altomator/Image_Retrieval) (archictecture ([BaseX](https://basex.org/) + REST + XQuery + IIIF). 
 
@@ -13,10 +15,7 @@ Les images des promotions sont traitées avec plusieurs modèles de détection d
 
 Les scripts générent des données .csv qui sont ensuite importées dans la base GallicaPix.
 
-Des analyses quantitatives sont produites à partir des détections. 
-
-[![Cravate](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/cravates.htm)
-* Analyse du port de la cravate, promotions 1904-1933*
+Des analyses [quantitatives](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/cravates.htm) sont produites à partir des détections. 
 
 Une annotation manuelle des visages d'élèves femmes permet de produire cette analyse statistique (grapheur : Highcharts).
 
