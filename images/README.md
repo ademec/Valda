@@ -18,15 +18,15 @@ Les scripts générent des données .csv qui sont ensuite importées dans la bas
 
 Des analyses quantitatives sont produites à partir des détections. 
 
-[![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-genrees_an.htm)
+[![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-cravates.htm)
 
-*Analyse du genre des élèves des promotions 1904-1933 (grapheur : Highcharts)*
+*Analyse du port de la cravate, promotions 1904-1933 (grapheur : Highcharts)*
 
 Dans l'exemple suivant, les visages des élèves femmes sont annotés manuellement puis des statistiques sont produites avec BaseX.
 
 [![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-genrees_an.htm)
 
-*Analyse du genre des élèves des promotions 1904-1933 (grapheur : Highcharts)*
+*Analyse du genre des élèves des promotions 1904-1933*
 
 
 ## Génération de l'image de la "mégapromo"
