@@ -83,7 +83,8 @@ Les manifestes des documents ENC sont accessibles depuis GallicaPix.
 1. Campagne participative pour l'identification des visages
 2. Inclusion du jeu de données Portraits (sous réserve de IIIFication)
 3. Valorisation
-- Création d'une mosaique HTML des visages avec liens vers les positions de thèse, VIAF, IdRef
-- Affichage des visages et des photos de promotion depuis les positions de thèse
+- Génération du visage type du chartiste (moyennage de visages)
+- Création d'une mosaique HTML des visages avec liens vers les positions de thèse et sites VIAF, IdRef
+- Affichage des visages et des photos de promotion depuis le portail des positions de thèse
 - Exportation des données sous forme d'annotations IIIF visualisables dans Mirador
 
