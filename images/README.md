@@ -77,4 +77,13 @@ Cette identification permet ensuite de lier les visages à leur position de thè
 ![ids](https://github.com/ademec/Valda/blob/images/images/visuels/identification.jpg)
 
 ## Diffusion des données avec IIIF
+Les manifestes des documents ENC sont accessibles depuis GallicaPix.
+
+## Perspectives
+1. Campagne participative pour l'identification des visages
+2. Inclusion du jeu de données Portraits (sous réserve de IIIFication)
+3. Valorisation
+- Création d'une mosaique HTML des visages avec liens vers les positions de thèse, VIAF, IdRef
+- Affichage des visages et des photos de promotion depuis les positions de thèse
+- Exportation des données sous forme d'annotations IIIF visualisables dans Mirador
 
