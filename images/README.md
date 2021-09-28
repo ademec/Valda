@@ -13,11 +13,11 @@ Les images des promotions sont traitées avec plusieurs modèles de détection d
 
 Les scripts générent des données .csv qui sont ensuite importées dans la base GallicaPix.
 
-Des analyses quantitatives sont produites à partir des détections.
+Des analyses quantitatives sont produites à partir des détections. Dans l'exemple suivant, les visages des élèves femmes sont annotés manuellement puis des statistiques sont produites avec BaseX.
 
 [![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-genrees_an.htm)
 
-*Analyse des genres des promotions (1904-1933)*
+*Analyse des genres des promotions (1904-1933). Grapheur : Highcharts*
 
 
 ## Génération de l'image de la "mégapromo"
