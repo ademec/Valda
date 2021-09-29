@@ -22,7 +22,7 @@ Les scripts générent des données .csv qui sont ensuite importées dans la bas
 Une annotation manuelle des visages d'élèves femmes permet de produire cette analyse statistique (grapheur : Highcharts).
 
 [![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-genrees_an.htm)
-* Analyse du genre des élèves des promotions 1904-1933*
+*Analyse du genre des élèves des promotions 1904-1933*
 
 
 ## Génération de l'image de la "mégapromo"
@@ -83,5 +83,9 @@ Cette identification permet ensuite de lier les visages à leur position de thè
 
 ## Portrait type des élèves
 
-## Perspectives
+tbc
 
+## Perspectives
+1. Campagne d'annotation participative pour l'identification des visages
+2. Production d'une mosaïque HTML des visages avec liens vers les positions de thèse
+3. Exportation des données avec IIIF
