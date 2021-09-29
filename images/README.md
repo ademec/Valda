@@ -17,9 +17,7 @@ Les images des promotions sont traitées avec plusieurs modèles de détection d
 ![Yolo v4](https://github.com/ademec/Valda/blob/images/images/visuels/cravates.jpg)
 *Exemple de détection de cravates avec Yolo v4*
 
-Les scripts générent des données .csv qui sont ensuite importées dans la base GallicaPix.
-
-Des analyses [quantitatives](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-cravate.htm) sont produites à partir des détections. 
+Les scripts générent des données .csv qui sont ensuite importées dans la base GallicaPix. Des analyses [quantitatives](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-cravate.htm) sont produites à partir des détections. 
 
 Une annotation manuelle des visages d'élèves femmes permet de produire cette analyse statistique (grapheur : Highcharts).
 
@@ -34,7 +32,7 @@ Cette image est ensuite tuilée pour être visualisée avec [OpenSeadragon](http
 
 [![megapixel](https://github.com/ademec/Valda/blob/images/images/visuels/mosaique.jpg)](http://www.euklides.fr/blog/altomator/Megapixel/Visages-ENC.html)
 
-*L'image des portraits dans OpenSeadragon*
+*L'image du trombinoscope dans OpenSeadragon*
 
 
 ## Identification des élèves
@@ -77,10 +75,13 @@ Une comparaison avec les noms du [référentiel des chartistes](https://github.c
 - André Artonne ...
 
 
-Les différents modèles d'identification des personnes présentes sur les photos (au recto, au verso, par renvois de numéro, etc.) incite à mettre en place une interface participative nourrie par les détections de visage et des propositions de nom extraites des métadonnées.
+La complexité des différents modèles d'identification des élèves présents sur les photos (au recto, au verso, par renvois de numéro, etc.) incite à mettre en place une interface participative nourrie par les détections de visage et des propositions de nom extraites du référentiel des chartistes.
 
 Cette identification permet ensuite de lier les visages à leur position de thèse et à leurs identifiants IDREF et VIAF.
 
 ![ids](https://github.com/ademec/Valda/blob/images/images/visuels/identification.jpg)
 
+## Portrait type des élèves
+
+## Perspectives
 
