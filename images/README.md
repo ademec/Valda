@@ -1,4 +1,5 @@
-# Hackathon du bicentenaire de l'Ecole nationale des Chartes (sept. 2021)
+# Hackathon du bicentenaire de l'Ecole nationale des Chartes <br/>
+(septembre 2021)
 
 [Lien](http://www.chartes.psl.eu/fr/actualite/hackathon-du-bicentenaire)
 
