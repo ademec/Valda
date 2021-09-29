@@ -1,4 +1,5 @@
-# Hackathon 
+# Hackathon du bicentenaire de l'Ecole nationale des Chartes [(sept. 2021)](http://www.chartes.psl.eu/fr/actualite/hackathon-du-bicentenaire)
+
 
 ## Importation des images de promotion
 Les métadonnées élémentaires (année, niveau, recto ou verso, etc.) du jeu de données ["Photos de promotion"](https://github.com/ademec/hackathon) sont importées dans le démonstrateur [GallicaPix](https://github.com/altomator/Image_Retrieval) (archictecture ([BaseX](https://basex.org/) + REST + XQuery + IIIF). 
