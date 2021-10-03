@@ -81,7 +81,7 @@ Cette identification permet ensuite de lier les visages à leur position de thè
 ![ids](https://github.com/ademec/Valda/blob/images/images/visuels/identification.jpg)
 
 ## Portraits type
-* à finir *
+*à finir*
 
 ## Diffusion des données avec IIIF
 Les manifestes des documents ENC sont accessibles depuis GallicaPix.
