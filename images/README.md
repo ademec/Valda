@@ -17,11 +17,11 @@ Les scripts générent des données .csv qui sont ensuite importées dans la bas
 ![Yolo v4](https://github.com/ademec/Valda/blob/images/images/visuels/cravates.jpg)
 *Exemple de détection de cravates avec Yolo v4*
 
-Des analyses [quantitatives](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-cravates.htm) sont produites à partir des détections (grapheur Javascript : Highcharts). Dans l'exemple suivant, les visages des élèves femmes sont annotés manuellement puis des statistiques sont produites avec BaseX.
+Des analyses [quantitatives](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-cravates.htm) sont produites à partir des détections (grapheur Javascript : Highcharts). Dans l'exemple suivant, les visages des élèves femmes sont annotés manuellement puis des statistiques sont produites.
 
 [![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-genrees_an.htm)
 
-*Analyse du genre des élèves des promotions 1904-1933*
+*Analyse du genre des élèves d'après les photographies de promotion (1904-1933)*
 
 
 ## Génération de l'image de la "mégapromo"
