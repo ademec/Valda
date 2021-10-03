@@ -16,11 +16,7 @@ Les images des promotions sont traitées avec plusieurs modèles de détection d
 
 Les scripts générent des données .csv qui sont ensuite importées dans la base GallicaPix.
 
-Des analyses quantitatives sont produites à partir des détections. 
-
-[![Genres des élèves](https://github.com/ademec/Valda/blob/images/images/visuels/genres.jpg)](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-cravate.htm)
-
-*Analyse du port de la cravate, promotions 1904-1933 (grapheur : Highcharts)*
+Des analyses [quantitatives](https://altomator.github.io/Introduction_to_Deep_Learning-2-Face_Detection/ENC/Graphes/illustrations-cravates.htm) sont produites à partir des détections (grapheur Javascript : Highcharts). 
 
 Dans l'exemple suivant, les visages des élèves femmes sont annotés manuellement puis des statistiques sont produites avec BaseX.
 
