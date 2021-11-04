@@ -6,6 +6,13 @@ Découvrez le travail réalisé par notre équipe à l'occasion du hackatahon or
 * L'ensemble de nos réflexions au cours du week-end a été consigné dans le document Markdown CarnetdeBord
 * Un diaporama permet de voir les réalisations du week-end et les prolongements possibles à notre projet.
 
+Aurélien Conraux
+Jean-Damien Généro
+Jean-Philippe Moreux
+Lucie Rondeau du Noyer
+Antoine de Sacy
+
+
 ## Fichiers
 * Dans le fichier **images** se trouvent l'ensemble des scripts python qui ont été appliqués au corpus des photographies de promotion (1904-1935) et à leurs métadonnées, ainsi que les résultats de ces traitements. 
 * Dans le fichier **lingua-valda** se trouvent l'ensemble des positions de thèse au format txt, les scripts qui ont été appliqués à ce corpus et les visualisations finales.
