@@ -14,7 +14,7 @@ Antoine de Sacy)
 
 
 ## Fichiers
-* Analyse visuelle des photos de promotion : dans le fichier **images** se trouvent l'ensemble des scripts python qui ont été appliqués au corpus des photographies de promotion (1904-1935) et à leurs métadonnées, ainsi que les résultats de ces traitements. 
+* *Analyse visuelle des photos de promotion* : dans le dossier [images]() se trouvent l'ensemble des scripts python qui ont été appliqués au corpus des photographies de promotion (1904-1935) et à leurs métadonnées, ainsi que les résultats de ces traitements. 
 * Analyse stylistique des positions de thèse : dans le fichier **lingua-valda** se trouvent l'ensemble des positions de thèse au format txt, les scripts qui ont été appliqués à ce corpus et les visualisations finales.
 * Géolocalisation des positions de thèse : dans le fichier **valdapp** se trouvent le code de l'application flask développée pendant le week-end, ainsi que l'ensemble des données et des scripts permettant de géolocaliser les sujets de thèse d'école.
 
