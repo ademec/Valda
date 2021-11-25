@@ -4,7 +4,7 @@
 Découvrez le travail réalisé par notre équipe à l'occasion du hackatahon organisé par l'ADEMEC.
 
 * L'ensemble de nos réflexions au cours du week-end a été consigné dans le document Markdown CarnetdeBord
-* Un diaporama permet de voir les réalisations du week-end et les prolongements possibles à notre projet.
+* Un [diaporama](https://github.com/ademec/Valda/blob/main/Valda%20_%20Carnet%20de%20bord_2021-09-26_1530.pdf) permet de voir les réalisations du week-end et les prolongements possibles à notre projet.
 
 (Aurélien Conraux,
 Jean-Damien Généro,
